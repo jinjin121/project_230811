@@ -1287,3 +1287,71 @@
 }
 
 /* section05 */
+
+.footer {
+    background: #595f6a;
+    color: #fdfdfd;
+    padding: 50px 0;
+}
+
+.footer .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .f_left {}
+
+.footer .f_left .f_menu {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.footer .f_left .f_menu li:first-child {
+    color: #ffa500;
+}
+
+.footer .f_left .f_l_bottom {
+    line-height: 1.5;
+    width: 660px;
+    font-size: 11px;
+}
+
+.footer .f_left .f_l_bottom li {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.footer .f_left .f_l_bottom li img {
+    height: 100%;
+}
+
+.f_right .f_r_top {
+    display: flex;
+    gap: 10px;
+}
+
+.f_right .f_r_top img {
+    display: block;
+    width: 30px;
+    height: auto;
+}
+
+.f_right .f_r_top>div {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+}
+
+.fsite .fs_tit_box {
+    background: url(../images/fs_bg.gif)no-repeat center center/cover;
+    display: block;
+    width: 187px;
+    height: 32px;
+}
+
+.fsite .fs_tit_box .fs_tit {
+    font-size: 14px;
+}
