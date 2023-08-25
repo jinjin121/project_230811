@@ -31,5 +31,9 @@ $(function () {
         pauseOnHover: false,
         pauseOnFocus: false,
     });
+    $('.fs_tit_box').on('click', function (e) {
+        e.preventDefault();
+        $('.fs_list').toggleClass('on');
+    });
 
 });
