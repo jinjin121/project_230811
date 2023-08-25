@@ -965,15 +965,6 @@
     white-space: nowrap;
     margin-bottom: 10px;
     align-self: center;
-    border: 1px solid green;
-}
-
-.reserve_box .reserve_agree .reserve_checkbox {
-    border: 1px solid red;
-}
-
-.reserve_box .reserve_agree .reserve_checkbox span {
-    border: 1px solid blue;
 }
 
 .reserve_box>button {
@@ -1084,8 +1075,6 @@
     width: 480px;
     height: 620px;
 }
-
-.section03 .inner .notice_left .notice_bottom {}
 
 .section03 .inner .notice_left .notice_bottom .notice_bottom_tit {
     font-size: 20px;
@@ -1299,13 +1288,15 @@
     justify-content: space-between;
 }
 
-.footer .f_left {}
+.footer .f_left {
+    width: 620px;
+}
 
 .footer .f_left .f_menu {
     display: flex;
-    justify-content: space-between;
     font-size: 14px;
     margin-bottom: 30px;
+    justify-content: space-between;
 }
 
 .footer .f_left .f_menu li:first-child {
@@ -1345,13 +1336,55 @@
     align-items: center;
 }
 
-.fsite .fs_tit_box {
+.f_right .f_r_top .blog_box {
+    gap: 5px;
+}
+
+.f_right .f_r_top .fb_box {
+    gap: 5px;
+}
+
+.fsite {
+    position: relative;
+}
+
+.fsite .fs_tit_box a {
     background: url(../images/fs_bg.gif)no-repeat center center/cover;
     display: block;
     width: 187px;
     height: 32px;
+    padding: 8px 8px;
+    line-height: 1;
+    font-size: 14px;
 }
 
-.fsite .fs_tit_box .fs_tit {
+.fsite .fs_list {
+    display: none;
     font-size: 14px;
+    background: #fff;
+    border: 1px solid #333;
+    color: #333;
+    position: absolute;
+    top: -231px;
+    left: 0;
+    width: 187px;
+    text-align: center;
+}
+
+.fsite .fs_list.on {
+    display: block;
+}
+
+.fsite .fs_list li {
+    line-height: 32px;
+}
+
+.fsite .fs_list li~li {
+    border-top: 1px solid #333;
+}
+
+.f_r_bottom ul {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
